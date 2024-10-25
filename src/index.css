@@ -1,0 +1,35 @@
+body{
+  background: rgb(103,72,130);
+background: linear-gradient(90deg, rgba(103,72,130,1) 0%, rgba(113,45,131,1) 0%, rgba(154,111,191,1) 0%, rgba(147,95,191,1) 0%, rgba(211,178,237,1) 0%, rgba(165,124,196,1) 8%, rgba(116,62,143,1) 100%, rgba(144,97,187,1) 100%);
+}
+.searchBar{
+  height: 35px;
+  border: 1px solid rgb(182, 180, 180);
+  border-radius: 15px;
+  width: 200px;
+  background-color: aliceblue;
+}
+.searchBar:focus,
+.searchBar:active {
+  border: none !important; 
+  outline: none !important;
+  border: 1px solid rgb(182, 180, 180) !important;
+}
+.card{
+  background: rgb(211,192,237);
+background: linear-gradient(90deg, rgba(211,192,237,1) 0%, rgba(167,118,195,1) 100%, rgba(178,144,199,1) 100%, rgba(186,141,201,1) 100%);
+}
+.searchBtn{
+  width: 40px;
+  border-radius: 10px;
+  height: 35px;
+  border: 1px solid rgb(182, 180, 180);
+  background-color: aliceblue;
+
+}
+.textColor1{
+  color: rgb(82, 31, 96);
+}
+.textColor{
+  color: rgb(255, 255, 255);
+}
